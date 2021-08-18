@@ -21,7 +21,7 @@ const Page = () => {
 	}
 
   return (
-    <div>
+    <div data-theme="light">
       Page: {pageData.name}
       <ul>{pageData.links.map((link) => renderLink(link))}</ul>
     </div>
